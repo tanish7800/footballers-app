@@ -38,7 +38,8 @@ CategoriesScreen.navigationOptions = navData => {
     headerLeft: () => (
     <HeaderButtons HeaderButtonComponent={HeaderButton} >
       <Item title="Menu" iconName='ios-menu' onPress={()=>{
-        navData.navigation.toggleDrawer();
+        //navData.navigation.toggleDrawer();
+        console.log(navData);
       }}/>
     </HeaderButtons>)
   } 
